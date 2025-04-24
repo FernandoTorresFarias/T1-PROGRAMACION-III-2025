@@ -177,10 +177,13 @@ button:hover{
   align-items: center;
   flex-direction: column;
   background-color: #171717;
+  padding-bottom: 30px;
 
 }
 
 .quinta-seccion img{
+  display: flex;
   border-radius: 5px;
   width: 350px;
+ 
 }
