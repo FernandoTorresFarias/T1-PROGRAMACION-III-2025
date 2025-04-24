@@ -102,7 +102,7 @@ button:hover{
   background-color: #9d55aa;
 }
 
-.seccion-secundaria{
+.segunda-seccion{
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -147,7 +147,7 @@ button:hover{
   background-color: #9d55aa;
 }
 
-.seccion-terciario{
+.tercera-seccion{
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -155,14 +155,14 @@ button:hover{
 }
 
 
-.seccion-terciario p{
+.tercera-seccion p{
   border-radius: 10px;
   background-color: #101010;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.seccion-cuaternario{
+.cuarta-seccion{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -170,4 +170,17 @@ button:hover{
   height: 50vh !important; 
   background-size: cover;
   text-align: center;
+}
+
+.quinta-seccion{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #171717;
+
+}
+
+.quinta-seccion img{
+  border-radius: 5px;
+  width: 350px;
 }
