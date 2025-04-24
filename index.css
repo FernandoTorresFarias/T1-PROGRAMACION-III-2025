@@ -9,23 +9,35 @@
     padding: 0;
   }
   
-
-
 header{
     display: flex;
     justify-content: space-between;
     background-color: black;
     height: 63px;
     width: 100%;
+    padding: 20px 10px;
 }
 
 
 .navbar {
     display: flex;                
-    margin-left: auto;
+   /* margin-left: auto; */ 
   }
 
 .navbar a{
-    margin-left: 15px;
+   margin-left: 15px; 
+    font-family: fantasy;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
    
+}
+
+.logo a{
+  font-family: fantasy;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
