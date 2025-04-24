@@ -21,7 +21,6 @@ header{
 
 .navbar {
     display: flex;                
-   /* margin-left: auto; */ 
   }
 
 .navbar a{
@@ -40,4 +39,37 @@ header{
   font-size: 15px;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.seccion-principal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.centrado-titulo{
+  display: flex;
+  padding: 10px 20px;
+}
+
+
+
+.centrado-parrafo{
+  display: flex;
+  padding: 20px 20px;
+}
+
+.botones-main{
+  display: flex;
+  gap: 15px;
+}
+
+
+button{
+  font-size: 15px;
+}
+
+h1{
+  text-transform: uppercase;
+  font-size: 30px;
 }
