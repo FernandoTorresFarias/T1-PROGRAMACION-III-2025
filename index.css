@@ -45,6 +45,13 @@ header{
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url(recursos/header.jpg);
+  height: 60vh !important; 
+  background-size: cover;
+  
+
+ 
+ 
 }
 
 .centrado-titulo{
@@ -52,11 +59,22 @@ header{
   padding: 10px 20px;
 }
 
-
+h1{
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-top: 40px;
+  color: white;
+}
 
 .centrado-parrafo{
   display: flex;
   padding: 20px 20px;
+}
+
+p{
+  margin-bottom: 40px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .botones-main{
@@ -64,12 +82,11 @@ header{
   gap: 15px;
 }
 
-
 button{
-  font-size: 15px;
+  font-size: 19px;
+  background-color: #9c27b0;
+  border-color: #9c27b0;
+  border-radius: 5px;
+  color: white;
 }
 
-h1{
-  text-transform: uppercase;
-  font-size: 30px;
-}
