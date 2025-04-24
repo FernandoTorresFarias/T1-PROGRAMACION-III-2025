@@ -161,3 +161,13 @@ button:hover{
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.seccion-cuaternario{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(recursos/costos.jpg);
+  height: 50vh !important; 
+  background-size: cover;
+  text-align: center;
+}
