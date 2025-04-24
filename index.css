@@ -23,6 +23,10 @@ header{
     display: flex;                
   }
 
+.navbar :hover{
+ background-color: #3f3f3f;
+}
+
 .navbar a{
    margin-left: 15px; 
     font-family: fantasy;
@@ -64,6 +68,7 @@ h1{
   font-size: 30px;
   margin-top: 40px;
   color: white;
+  padding: 20px;
 }
 
 .centrado-parrafo{
@@ -90,6 +95,10 @@ button{
   color: white;
 }
 
+button:hover{
+  background-color: #9d55aa;
+}
+
 .seccion-secundaria{
   display: flex;
   align-items: center;
@@ -97,4 +106,40 @@ button{
   background-color: #171717;
   padding: 20px 20px;
 
+}
+
+
+
+.contenedor-caja{
+  display: flex;
+  flex-direction: row;
+}
+
+.caja{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contenedor-caja .caja{
+  border-radius: 10px;
+  background-color: #101010;
+  margin-top: 10px;
+  margin-left: 15px;
+  text-align: center;
+  
+}
+
+.contenedor-caja .caja i{
+  height: 3rem;
+  width: 3rem;
+  line-height: 3rem;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #9c27b0;
+  color: white;
+}
+
+.contenedor-caja .caja i:hover{
+  background-color: #9d55aa;
 }
