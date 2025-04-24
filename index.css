@@ -143,3 +143,12 @@ button:hover{
 .contenedor-caja .caja i:hover{
   background-color: #9d55aa;
 }
+
+.seccion-terciario{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #171717;
+}
+
+
