@@ -12,7 +12,7 @@
 header{
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    background-color: #171717;
     height: 63px;
     width: 100%;
     padding: 20px 10px;
@@ -90,3 +90,11 @@ button{
   color: white;
 }
 
+.seccion-secundaria{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #171717;
+  padding: 20px 20px;
+
+}
